@@ -7,6 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.Random;
@@ -52,6 +53,7 @@ public class MainActivity extends AppCompatActivity {
              if (vPager.getCurrentItem() < max-1) {
                  int nextPage = vPager.getCurrentItem() + 1;
                  vPager.setCurrentItem(nextPage, true);
+
              }
          } else if (id == R.id.previous) {
              int previousPage = vPager.getCurrentItem() - 1;

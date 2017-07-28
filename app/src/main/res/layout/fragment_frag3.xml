@@ -26,5 +26,11 @@
             android:layout_height="wrap_content"
             android:text="Change Color" />
 
+        <Button
+            android:id="@+id/buttonRead"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Read Later" />
+
     </LinearLayout>
 </FrameLayout>
