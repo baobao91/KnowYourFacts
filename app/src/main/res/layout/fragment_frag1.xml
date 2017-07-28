@@ -1,0 +1,31 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="sg.edu.rp.webservices.knowyourfacts.Frag1">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/textViewFrag1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.28"
+            android:background="#FFFF00"
+            android:text="Frag 1"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/buttonChange"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Change Color" />
+    </LinearLayout>
+
+</FrameLayout>
